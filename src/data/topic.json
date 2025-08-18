@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Parts of Speech",
+    "summary": "The categories words belong to based on their role in a sentence.",
+    "details": "There are 8 main parts of speech:\n1. Noun – names (boy, school)\n2. Pronoun – replaces a noun (he, they)\n3. Verb – shows action or state (run, is)\n4. Adjective – describes a noun (red, tall)\n5. Adverb – describes a verb/adjective (quickly, very)\n6. Preposition – shows relationship (in, on)\n7. Conjunction – joins words or phrases (and, but)\n8. Interjection – expresses strong feeling (wow!, oh!)"
+  },
+  {
+    "id": 2,
+    "title": "Tenses",
+    "summary": "The time an action takes place: past, present, or future.",
+    "details": "Three main types of tenses:\n1. Present – action happening now (She walks to school.)\n2. Past – action happened before (She walked to school.)\n3. Future – action will happen (She will walk to school.)\nEach tense has four forms: simple, continuous, perfect, and perfect continuous."
+  },
+  {
+    "id": 3,
+    "title": "Active and Passive Voice",
+    "summary": "Two ways to write a sentence depending on the focus.",
+    "details": "Active Voice – the subject does the action. (The teacher explained the lesson.)\nPassive Voice – the action is done to the subject. (The lesson was explained by the teacher.)\nTip: Use active voice for clarity, passive voice when the doer is unknown or less important."
+  },
+  {
+    "id": 4,
+    "title": "Figures of Speech",
+    "summary": "Creative expressions used to make language more interesting.",
+    "details": "Common figures of speech:\n1. Simile – compares using 'like' or 'as' (Her smile is like the sun.)\n2. Metaphor – direct comparison (Time is money.)\n3. Personification – giving human qualities to non-human things (The wind whispered.)\n4. Hyperbole – exaggeration (I’ve told you a million times.)"
+  },
+  {
+    "id": 5,
+    "title": "Punctuation Rules",
+    "summary": "Marks that help clarify meaning in writing.",
+    "details": "Common punctuation marks:\n- Period (.) – ends a sentence.\n- Comma (,) – separates ideas or items in a list.\n- Question Mark (?) – shows a question.\n- Exclamation Mark (!) – shows strong feeling.\n- Apostrophe (') – shows possession or contraction (it's, John's).\n- Quotation Marks (\"\") – show direct speech."
+  },
+  {
+    "id": 6,
+    "title": "Synonyms and Antonyms",
+    "summary": "Words with similar or opposite meanings.",
+    "details": "Synonyms – words with similar meanings (big/large, happy/glad).\nAntonyms – words with opposite meanings (hot/cold, fast/slow).\nTip: Using synonyms makes writing more interesting; using antonyms shows contrast."
+  },
+  {
+    "id": 7,
+    "title": "Direct and Indirect Speech",
+    "summary": "Two ways to report what someone said.",
+    "details": "Direct Speech – exact words spoken. (He said, 'I am tired.')\nIndirect Speech – rephrasing the words without quotes. (He said he was tired.)\nRules:\n- Change pronouns and tenses in indirect speech.\n- Remove quotation marks."
+  },
+  {
+    "id": 8,
+    "title": "Commonly Confused Words",
+    "summary": "Words that look or sound alike but have different meanings.",
+    "details": "Examples:\n- Their (belonging to them) vs There (place) vs They're (they are)\n- Affect (verb: to influence) vs Effect (noun: result)\n- Accept (receive) vs Except (excluding)\nTip: Learn common pairs to avoid mistakes in writing."
+  }
+]

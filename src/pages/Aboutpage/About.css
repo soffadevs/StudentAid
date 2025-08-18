@@ -1,0 +1,18 @@
+.about-subtitle{
+    font-size: 20px;
+    color: white;
+
+}
+.about-header{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+.about-card{
+    border: #0004ff 1px solid;
+    background-color: #CAF0F8;
+}
+.about-card-title{
+    font-size: 30px;
+    font-weight: bold;
+}

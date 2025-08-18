@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Navbar a:hover {
+    color: #0004ff;
+    font-weight: bold;
+}
+.Logo{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+.Logo-title{
+    display: flex;
+    gap: 1.5rem;
+}
+.My-title{
+    align-self: last baseline;
+    font-weight: 800;
+     
+
+}
