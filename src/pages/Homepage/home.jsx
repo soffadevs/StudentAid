@@ -1,19 +1,17 @@
-import React from 'react'
 import NavbarPage from '../../components/Navbar'
 import { useState } from "react";
 import Speech from '../../assets/parts-of-speech.png'
-
 import './Home.css'
 
 
 
-const home = () => {
+const Home = () => {
 
   const [View, setView] = useState(false);
 
   const [ShowView, setShowView] = useState(false);
   return (
-    <div>
+    <div> 
          <NavbarPage/>
 
          <main className='Header'>
@@ -105,4 +103,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home

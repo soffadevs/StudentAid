@@ -7,22 +7,19 @@ import Topic from './pages/Topicpage/Topic'
 import Contact from './pages/Contactpage/Contact'
 
 import './App.css'
- const App = () => {
-   return (
-      <div>
+const App = () => {
+  return (
+    <div>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Topic' element={<Topic />} />
+          <Route path='/Contact' element={<Contact />} />
+        </Routes>
+      </Router>
+    </div>
+  )
+}
 
-        <Router>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/About' element={<About />} />
-            <Route path='/Topic' element={<Topic />} />
-            <Route path='/Contact' element={<Contact />} />
-          </Routes>
-        </Router>
-
-
-     </div>
-   )
- }
- 
- export default App
+export default App
