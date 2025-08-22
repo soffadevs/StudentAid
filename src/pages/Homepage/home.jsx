@@ -96,7 +96,7 @@ const Home = () => {
       </div>
     </div>
   </div>
-   <a className='topic-link' href="Topic">View more topics</a>
+   <Link className='topic-link' to="/topic">View more topics</Link>
 </div>
 
     </div>
