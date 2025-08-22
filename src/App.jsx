@@ -1,4 +1,3 @@
-import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Homepage/home'
@@ -13,9 +12,9 @@ const App = () => {
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/About' element={<About />} />
-          <Route path='/Topic' element={<Topic />} />
-          <Route path='/Contact' element={<Contact />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/topic' element={<Topic />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </Router>
     </div>
