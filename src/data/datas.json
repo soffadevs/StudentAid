@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Part of Speech",
+    "description": "The categories words belong to based on their role in a sentence.",
+    "link": "https://www.stellarcontent.com/resources/writer/university/grammar/parts-of-speech/"
+  },
+  {
+    "title": "Learn Algebra",
+    "description": "The study of mathematical symbols and the rules for manipulating these symbols.",
+    "link": "https://powerdrill.ai/blog/math-websites"
+  },
+  {
+    "title": "Learn Quantum Mechanics",
+    "description": "The study of matter and energy at the most fundamental level.",
+    "link": "https://www.scotthyoung.com/blog/myprojects/qm/"
+  },
+  {
+    "title": "Learn Data Structures and Algorithms",
+    "description": "The study of data organization, management, and storage formats.",
+    "link": "https://blog.algomaster.io/p/how-i-mastered-data-structures-and-algorithms"
+  }
+]
