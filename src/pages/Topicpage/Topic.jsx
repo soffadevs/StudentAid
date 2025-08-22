@@ -1,5 +1,5 @@
 import NavbarPage from '../../components/Navbar';
-import topicsData from "../../data/topic.json";
+import topicsData from "../../data/datas.json";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Topic.css';
