@@ -1,7 +1,7 @@
 import React from 'react'
 import NavbarPage from '../../components/Navbar'
 import { useState } from "react";
-import Speech from '../../assets/parts-of-speech.png'
+import Footer from '../../components/Footer'
 
 import './Home.css'
 
@@ -96,11 +96,13 @@ const home = () => {
       )}
         </div>
       </div>
-    </div>
-  </div>
-   <a className='topic-link' href="Topic">View more topics</a>
-</div>
+      </div>
+      </div>
+      <a className='topic-link' href="Topic">View more topics</a>
+        </div>
 
+
+      <Footer/>
     </div>
   )
 }

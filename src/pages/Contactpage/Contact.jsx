@@ -1,5 +1,10 @@
 import React from 'react'
 import NavbarPage from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 import './contact.css'
 
 const Contact = () => {
@@ -17,14 +22,14 @@ const Contact = () => {
   <div className="container my-5">
             <div className="row">
               <div className="col-md-12 text-center mb-3">
-                <h4>Get in touch</h4>
+                <h4>Get in touch with us</h4>
               </div>
               
                       <div className="col-md-6 col-12  mb-3">
-                        <div className="card  shadow p-5">
-                          <div className="card-body">
-                            <h5 className="card-title">Email</h5>
-                            <p className="card-text">abdurrazaqsafiyyah@gmail.com</p>
+                        <div className="card shadow p-5 h-100">
+                          <div className="card-body text-center">
+                            <h5 className="card-title mb-3"> <FontAwesomeIcon icon={faEnvelope} className='icon'/> Email</h5>
+                            <h5 className="card-text" style={{color: 'blue'}}>abdurrazaqsafiyyah@gmail.com</h5>
                             <p>send us mail</p>
                     
                           </div>
@@ -32,10 +37,10 @@ const Contact = () => {
                       </div>
 
                     <div className="col-md-6 col-12 mb-3">
-                      <div className="card  shadow p-5">
-                        <div className="card-body">
-                            <h5 className="card-title">Phone</h5>
-                            <p className="card-text">+234 904 684 1241</p>
+                      <div className="card  shadow p-5 h-100">
+                        <div className="card-body text-center">
+                            <h5 className="card-title mb-3"> <FontAwesomeIcon icon={faPhone} className='icon'/>   Phone</h5>
+                            <h3 className="card-text" style={{color: 'blue'}}>+234 904 684 1241</h3>
                             <p>Call us</p>
                           
                           </div>
@@ -44,7 +49,7 @@ const Contact = () => {
             </div>
      </div>       
 
-
+  <Footer/>
 
     </div>
   )

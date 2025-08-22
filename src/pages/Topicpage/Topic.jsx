@@ -1,5 +1,6 @@
 import React from 'react'
 import NavbarPage from '../../components/Navbar'
+import Footer from '../../components/Footer'
 import topicsData from "../../data/topic.json";
 import { useState } from 'react';
 import './Topic.css'
@@ -67,6 +68,7 @@ const Topic = () => {
                     </div>
             </div>
           </div> 
+          <Footer/>
     </div>
   )
 }

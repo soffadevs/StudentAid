@@ -1,5 +1,6 @@
 import React from 'react'
 import NavbarPage from '../../components/Navbar'
+import Footer from '../../components/Footer'
 import './About.css'
 
 const About = () => {
@@ -47,7 +48,7 @@ const About = () => {
  
 
 
-
+<Footer/>
     </div>
   )
 }

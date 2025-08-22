@@ -1,0 +1,40 @@
+.footer{
+    background-color: #0077B6;
+    padding-bottom: 20px;
+    color: white;
+    
+}
+#footer-text{
+    text-align: center;
+    font-size: 20px;
+    color: white; 
+    margin: 20px;
+    
+}
+hr{
+    color: white;
+}
+.quick-link{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.footer-icon{
+    color: #CAF0F8;
+    margin-right: 10px;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+}
+.social-link{
+    font-size: 20px;
+    color: white;
+
+}
+.quick-link:hover{
+    color: #0004ff;
+}
+.social-link:hover{
+     color: #0004ff;
+}
