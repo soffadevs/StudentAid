@@ -1,19 +1,18 @@
-import React from 'react'
 import NavbarPage from '../../components/Navbar'
 import { useState } from "react";
+import { Link } from 'react-router-dom'
 import Footer from '../../components/Footer'
-
 import './Home.css'
 
 
 
-const home = () => {
+const Home = () => {
 
   const [View, setView] = useState(false);
 
   const [ShowView, setShowView] = useState(false);
   return (
-    <div>
+    <div> 
          <NavbarPage/>
 
          <main className='Header'>
@@ -96,10 +95,11 @@ const home = () => {
       )}
         </div>
       </div>
-      </div>
-      </div>
-      <a className='topic-link' href="Topic">View more topics</a>
-        </div>
+    </div>
+  </div>
+  {/* <a href="Topic">View more topics</a> */}
+   <Link className='topic-link' to="/topic">View more topics</Link>
+</div>
 
 
       <Footer/>
@@ -107,4 +107,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
