@@ -26,7 +26,7 @@ const Contact = () => {
           </div>
 
           <div className="col-md-6 col-12 mb-3">
-            <div className="card shadow p-5 h-100">
+            <div className="card shadow p-5">
               <div className="card-body text-center">
                 <h5 className="card-title mb-3"> 
                   <FontAwesomeIcon icon={faEnvelope} className='icon'/> Email
@@ -36,7 +36,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-md-6 col-12">
-            <div className="card shadow p-5 h-100">
+            <div className="card shadow p-5">
               <div className="card-body text-center">
                 <h5 className="card-title mb-3"> 
                   <FontAwesomeIcon icon={faPhone} className='icon'/> Phone
