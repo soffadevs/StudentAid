@@ -4,8 +4,6 @@ import Footer from '../../components/Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone} from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
-import './contact.css'
 import './Contact.css'
 
 const Contact = () => {
@@ -31,7 +29,7 @@ const Contact = () => {
                 <h5 className="card-title mb-3"> 
                   <FontAwesomeIcon icon={faEnvelope} className='icon'/> Email
                 </h5>
-                <h5 className="card-text" style={{color: 'blue'}}>abdurrazaqsafiyyah@gmail.com</h5>
+                <h5 className="card-text" style={{color: 'blue'}}> <a href=""></a> abdurrazaqsafiyyah@gmail.com</h5>
               </div>
             </div>
           </div>
